@@ -35,8 +35,8 @@ for md_file in "$CONTENT_DIR"/*.md; do
         --metadata title="$title" \
         "$md_file" > "$PUBLIC_DIR/${filename}.html"
 
-    # Mark current page's nav link as active
-    sed -i "s|href=\"${filename}.html\"|href=\"${filename}.html\" class=\"active\"|g" \
+    # Mark current page's nav link as active (only in nav, not in site-title)
+    sed -i "/<nav/,/<\/nav>/s|href=\"${filename}.html\"|href=\"${filename}.html\" class=\"active\"|g" \
         "$PUBLIC_DIR/${filename}.html"
 
     echo "Built: ${filename}.html (title: $title)"

@@ -86,10 +86,16 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-.header-nav li a:hover,
+.header-nav li a:hover {
+    background-color: var(--yonsei-blue-accent);
+    color: var(--yonsei-white);
+}
+
 .header-nav li a.active {
     background-color: var(--yonsei-blue-accent);
     color: var(--yonsei-white);
+    font-weight: 700;
+    box-shadow: inset 0 -3px 0 var(--yonsei-white);
 }
 
 /* Main content */
