@@ -21,6 +21,6 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'yonsei.surge.sh'
-          project: 'build'
+          project: 'public'
           login: benelog@naver.com
           token: ${{ secrets.SURGE_TOKEN }}
