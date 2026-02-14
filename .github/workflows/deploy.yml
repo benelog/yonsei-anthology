@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +21,5 @@ jobs:
         with:
           domain: 'yonsei.surge.sh'
           project: 'public'
-          login: benelog@naver.com
+          login: ${{ secrets.SURGE_LOGIN }}
           token: ${{ secrets.SURGE_TOKEN }}
