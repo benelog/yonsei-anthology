@@ -15,7 +15,7 @@
 'yonsei-publication@googlegroups.com'로 이메일을 발송합니다.
 
 * 방법 1-1 : 첨부파일로 'docx' 파일을 제출합니다.
-* 방법 2-2 : 접근 권한이 부여된 '구글 문서' 링크를 전달합니다. 
+* 방법 1-2 : 접근 권한이 부여된 '구글 문서' 링크를 전달합니다. 
 
 ### 방법2
 [출판분과에서 만든 구글 드라이브 폴더](https://drive.google.com/drive/folders/1uq8ws8LOHIMJlFDpJSu_ndv8w5sFoMGB?usp=drive_link)를 통해 공유합니다.
