@@ -21,11 +21,6 @@ body {
     color: var(--yonsei-dark-gray);
     line-height: 1.7;
     background-color: var(--yonsei-white);
-    background-image: url('bg-main.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-    background-attachment: fixed;
 }
 
 /* Header */
