@@ -6,7 +6,10 @@
       "Bash(./build.sh:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:ibook.yonsei.ac.kr)",
+      "Bash(curl:*)",
+      "Bash(ls:*)"
     ]
   }
 }
